@@ -24,7 +24,7 @@ function validasi(event) {
     if (nama == "" || email == "" || messages == "" || subject == "") {
         addError();
     } else {
-        alert("Terimakasih atas pertanyaan Anda, silahkan cek email untuk infromasi dan jawaban");
+        alert("Terimakasih atas pertanyaan Anda, silahkan cek email untuk informasi dan jawaban");
         window.location.reload();
     }
 }
@@ -41,7 +41,7 @@ function validasiForm(event) {
     if (namaUser == "" || emailUser == "" || phone == "" || umkm == "" || description == "") {
         addError();
     } else {
-        alert("Terimakasih sudah mendaftar, silahkan cek email untuk infromasi lebih lanjut");
+        alert("Terimakasih telah mendaftar, silahkan cek email untuk informasi lebih lanjut");
         window.location.reload();
     }
 }

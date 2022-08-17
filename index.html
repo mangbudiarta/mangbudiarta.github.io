@@ -335,24 +335,24 @@
             </p>
           </div>
           <div class="col-lg-6">
-            <form data-aos="fade-down">
+            <div class="alert alert-danger mb-2" role="alert" style="display: none;"></div>
+            <form action="" onsubmit="validasi()" data-aos="fade-down" class="form">
               <div class="form-floating mb-3">
-                <input type="text" class="form-control rounded-pill px-3" id="name" placeholder="Your name" required />
-                <label for="name" class="form-label px-3">Your name</label>
+                <input type="text" class="form-control rounded-pill px-3" id="nama" placeholder="Your name" />
+                <label for="nama" class="form-label px-3">Your name</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="email" class="form-control rounded-pill px-3" id="email" placeholder="name@example.com"
-                  required />
+                <input type="email" class="form-control rounded-pill px-3" id="email" placeholder="name@example.com" />
                 <label for="email" class="form-label px-3">Email address</label>
               </div>
               <div class="form-floating mb-3">
-                <input type="text" class="form-control rounded-pill px-3" id="subject" placeholder="Mr Budi" required />
+                <input type="text" class="form-control rounded-pill px-3" id="subject" placeholder="Mr Budi" />
                 <label for="subject" class="form-label px-3">Subjet</label>
               </div>
               <div class="form-floating mb-3">
-                <textarea class="form-control px-3" placeholder="Leave a comment here" id="floatingTextarea2"
-                  style="height: 150px" required></textarea>
-                <label for=" floatingTextarea2" class="px-3">Messages</label>
+                <textarea class="form-control px-3" placeholder="Leave a comment here" id="messages"
+                  style="height: 150px"></textarea>
+                <label for="messages" class="px-3">Messages</label>
               </div>
               <button type="submit" class="btn btn-primary rounded-pill py-2 px-4">Send</button>
             </form>

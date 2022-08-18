@@ -1,3 +1,4 @@
+// Navbar Scroll
 var nav = document.querySelector("nav");
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 45) {
@@ -7,6 +8,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// Function add alert error form
 var error = document.querySelector('.alert-danger');
 function addError() {
     error.innerHTML = 'Formulir tidak boleh kosong';
@@ -14,6 +16,7 @@ function addError() {
 }
 var form = document.querySelector('.form');
 
+// Function validasi contact form
 function validasi(event) {
     var nama = document.getElementById("nama").value;
     var email = document.getElementById("email").value;
@@ -30,6 +33,7 @@ function validasi(event) {
 }
 form.addEventListener('submit', validasi);
 
+// Function validasi join form
 function validasiForm(event) {
     var namaUser = document.getElementById("namaUser").value;
     var emailUser = document.getElementById("emailUser").value;

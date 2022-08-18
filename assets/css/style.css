@@ -3,6 +3,7 @@
   --light: #f3f6f8;
   --dark: #265d87;
 }
+
 @font-face {
   font-family: poppins;
   src: url(../fonts/Poppins-Regular.ttf);
@@ -87,6 +88,7 @@ nav.navbar.bg-light .nav-item .btn.contact:hover{
   color: var(--primary);
   box-shadow: 0 5px 14px rgba(4, 8, 121, 0.3);
 }
+
 .btn-light:hover {
   background-color: transparent;
   border: 2px solid var(--light);
